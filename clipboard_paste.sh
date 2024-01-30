@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-
-source "$(upkg root "${BASH_SOURCE[0]}")/clipboard.sh"
+set -eo pipefail; shopt -s inherit_errexit
+source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/clipboard.sh"
 clipboard_paste
