@@ -10,11 +10,7 @@ with a GUI.
 
 ## Installation
 
-With [μpkg](https://github.com/orbit-online/upkg)
-
-```
-upkg install -g orbit-online/clipboard-wrapper@<VERSION>
-```
+See [the latest release](https://github.com/orbit-online/clipboard-wrapper/releases/latest) for instructions.
 
 ## Usage
 

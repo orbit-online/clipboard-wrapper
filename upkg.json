@@ -1,7 +1,3 @@
 {
-  "assets": ["clipboard.sh"],
-  "commands": {
-    "clipboard_copy": "clipboard_copy.sh",
-    "clipboard_paste": "clipboard_paste.sh"
-  }
+  "name": "clipboard-wrapper"
 }
