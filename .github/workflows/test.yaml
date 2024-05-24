@@ -13,8 +13,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - uses: orbit-online/upkg-install@v1
-      with:
-        install-dependencies: 'true'
     - name: Run ShellCheck
       uses: ludeeus/action-shellcheck@master
       env:
